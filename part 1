@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IEEE Proj </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  <!-- BOOTSTRAP library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icon library -->
+  <style>
+h2.headertekst {
+  text-align: center;
+  font-size: 40px;
+  color: #091540;
+}
+
+.btn{min-width:250px;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2667FF;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #B8F3FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: #091540;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #2667FF;
+  position: right-side;
+  height: auto;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #B8F3FF;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #091540;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+
+div.content {
+  margin-right: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: right;}
+  div.content {margin-right: 0;}
+}
+
+</style>
+
+</head>
+<body>
+<div class="topnav">
+  <a  href="#">Home</a>
+  <a href="#">Activity</a>
+  <a href="#">About US</a>
+</div>
+ <h2 class="headertekst"> DJSE IEEE</h2>
+ <div id="mySidebar" class="sidebar">
+  <nav class="sidebar-nav">
+    <ul class="nav">
+	 <a href="http://djsce.ac.in">DJSCE</a>
+  <a href="https://medium.com/@ieeedjsceblog">MEDIUM</a>
+  <a href="https://www.facebook.com/ieeebrainwaves.dj/">FACEBOOK</a>
+  
+</div>
+
+ <div class="col-md-12 text-center"> 
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Sign Out</button> 
+</div>
+</body>
+</html>
